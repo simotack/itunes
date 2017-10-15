@@ -1,4 +1,121 @@
+
+body{
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'oswald';
+    font-size: 55px;
+}
+
+h2 {
+    font-family: 'oswald';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-family: 'oswald';
+    font-size: 20px;
+}
 .header {
-    background: url(images/banneroff.png) center;
-    background-size: cover;
+    background-color: rgb(155,164,94);
+}
+
+h1.uppercase{
+    text-transform: uppercase;
+}
+
+.d-block{
+    display: block;
+}
+
+.carousel-item{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dropdown {
+    margin-left: 0%;
+}
+
+.header{
+    display: block;
+}
+
+
+.collapsed{
+   color: rgba(218, 224, 227, 1);
+
+}
+
+.card-header{
+    background-color:rgb(155,164,94);
+   
+}
+
+.card{
+background-color: rgba(218, 224, 227, 1);
+border-color: rgba(218, 224, 227, 1);
+}
+
+a{
+    text-decoration: none;
+    color: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: darkslategrey;
+
+}
+
+.btn {
+    margin-left: 38%;
+    margin-top: -100px;  
+    color: black;  
+}
+.btn-outline-dark{
+    color: black;
+    border-color: darkslategray;
+    
+}
+
+.socialmedia{
+    align-content: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+#accordion{
+    margin-top: 13%;
+}
+
+.btn  {
+
+}
+
+#probleem {
+    margin-top: -15px;
+}
+
+strong {
+    color: rgb(155,164,94);
 }

@@ -25,27 +25,6 @@ p {
     background-color: rgb(104,41,72);
 }
 
-h1.uppercase{
-    text-transform: uppercase;
-}
-
-.d-block{
-    display: block;
-}
-
-.carousel-item{
-    position: relative;
-    width: 100%;
-    align-items: center;
-    perspective: 1000px;
-}
-
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
 .header{
     display: block;
 }
@@ -86,27 +65,33 @@ a:hover{
     color: black;  
 }
 
-.btn-outline-dark{
-    
-    color: black;
-    border-color: rgb(104, 41,72);   
-    border-width: 5px;
-
+.button {
+    background-color:rgb(104, 41, 72);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin-top: -30px;
+    margin-left: 210px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.10s;
+    outline: none;
 }
 
+.button:hover{
+    background-color:rgb(221, 77, 77);
+    color: white;
+  }
 
 .btn-secondary {
     color: white;  
 }
 
-.socialmedia{
-    align-content: center;
-    height: 50px;
-    width: 50px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-
-}
 
 #accordion{
     margin-top: 13%;

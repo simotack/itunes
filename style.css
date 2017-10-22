@@ -22,7 +22,7 @@ p {
     font-size: 20px;
 }
 .header {
-    background-color: rgb(155,164,94);
+    background-color: rgb(104,41,72);
 }
 
 h1.uppercase{
@@ -46,10 +46,6 @@ h1.uppercase{
     overflow: hidden;
 }
 
-.dropdown {
-    margin-left: 0%;
-}
-
 .header{
     display: block;
 }
@@ -61,13 +57,13 @@ h1.uppercase{
 }
 
 .card-header{
-    background-color:rgb(155,164,94);
+    background-color:rgb(104,41,72);
    
 }
 
 .card{
-background-color: rgba(218, 224, 227, 1);
-border-color: rgba(218, 224, 227, 1);
+    background-color: rgba(218, 224, 227, 1);
+    border-color: rgba(218, 224, 227, 1);
 }
 
 a{
@@ -80,7 +76,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: darkslategrey;
+    color: rgba(218, 224, 227, 1);
 
 }
 
@@ -89,10 +85,16 @@ a:hover{
     margin-top: -100px;  
     color: black;  
 }
+
 .btn-outline-dark{
     color: black;
-    border-color: darkslategray;
-    
+    border-color: rgb(104, 41,72);   
+    border-width: 5px;
+}
+
+
+.btn-secondary {
+    color: white;  
 }
 
 .socialmedia{
@@ -108,14 +110,10 @@ a:hover{
     margin-top: 13%;
 }
 
-.btn  {
-
-}
-
 #probleem {
     margin-top: -15px;
 }
 
 strong {
-    color: rgb(155,164,94);
+    color: rgb(104,41,72);
 }

@@ -87,9 +87,11 @@ a:hover{
 }
 
 .btn-outline-dark{
+    
     color: black;
     border-color: rgb(104, 41,72);   
     border-width: 5px;
+
 }
 
 
